@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+#oferta-limitada, nav h1 {
+    margin: 35px 70px;
+}
+
+#oferta-limitada a{
+    border-bottom: 2px solid green;
+}
+
+.menu-tenis {
+    margin-top: 80px;
+    margin-left: 600px;
+}
+
+.menu-tenis a {
+    padding: 20px;
+    color: #000;
+}
+
+.slider {
+    height: 750px;
+}
+
+.area-informacoes {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8em;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes img {
+    width: 50px;
+}
+
+.informacoes h2 {
+    margin: 20px 0;
+}
+
+.informacoes p {
+    color: gray;
+}
+
+.slider {
+    height: 790px;
+    color: #fff;
+    background: url("img/fundo.avif");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-imagem {
+    margin-left: 10%;
+    background-color: #369e62;
+    border: #369e62 10px solid;
+    border-radius: 380px;
+    margin-top: 15px;
+    height: 760px;
+}
+
+.slider-info {
+    text-align: center;
+    width: 20%;
+    margin-bottom: 10%;
+    margin-right: 5%;
+}
+
+.slider-info h1 {
+    font-size: 3em;
+}
+
+.slider-info button{
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    width: 170px;
+    margin: 50px 0 0 80px;
+}
+
+.slider-preco {
+    margin-bottom: 20%;
+    margin-left: 10%;
+}
+
+.slider-preco h2{
+    font-size: 3em;
+    color: #369e62;
+}
+
+.item-slider {
+    display: flex;
+}
+
+.area-pagamento form {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 0.8em;
+}
+
+.area-pagamento h2 {
+    color: lightgray;
+    margin-top: 20px;
+}
+
+.area-pagamento #btn-fecha {
+    margin: 40px;
+}
+
+.area-pagamento .input-cartao {
+    display: inline;
+    width: 150px;
+}
+
+.area-pagamento input {
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    margin-top: 10px;
+    width: 550px;
+}
+
+.area-pagamento ::placeholder {
+    opacity: 0.6;
+}
+
+.area-pagamento img {
+    margin-top: 10px;
+    width: 40px;
+}
+
+#form-pagamento {
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.area-pagamento .btn-finalizado {
+    margin-top: 10px;
+    opacity: 0.9;
+    float: none;
+    width: 100%;
+    height: 45px;
+    background-color: #369e62;
+}
+
+.area-pagamento p {
+    margin-top: 30px;
+}
+
+.area-pagamento button {
+    float: right;
+    padding: 5px;
+    width: 30px;
+    color: #fff;
+    background-color: gray;
+}
+
+.area-tenis {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.area-img img {
+    width: 130%;
+}
+
+.area-info {
+    margin-top: 10%;
+    width: 40%;
+}
+
+.area-info h1 {
+    font-size: 4em;
+}
+
+.area-info h5 {
+    font-size: 1.2em;
+    margin-top: 60px;
+}
+
+.area-info p {
+    color: gray;
+    margin-top: 20px;
+}
+
+.area-pagamento {
+    display: none;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 600px;
+    border: 1px solid #000;
+    background-color: #fff;
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.3);
+    width: 700px;
+    height: 620px;
+}
+
+.ativo {
+    display: block;
+}
+
+.cores-tenis {
+    display: flex;
+    margin: 30px 0;
+}
+
+.cor-1, .cor-2 {
+    width: 35px;
+    border-radius: 5px;
+    height: 35px;
+    background-color: black;
+    border: none;
+}
+
+.cor-2 {
+    background-color: darkblue;
+    margin-left: 10px;
+}
+
+.area-info .tamanho-tenis {
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.btn-comprar button{
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    font-weight: bolder;
+}
+
+.btn-comprar {
+    margin: 30px 0 30px 600px;
+}
+
+.area-imagens {
+    display: flex;
+    justify-content: center;
+}
+
+.area-imagens img {
+    width: 500px;
+    height: 750px;
+    margin: 0 50px;
+}
+
+#titulo-galeria {
+    margin-bottom: 2%;
+    margin-left: 100px;
+}
+
+.nova-colecao {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.info-colecao {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.info-colecao h4 {
+    margin-top: 120px;
+}
+
+.info-colecao h2 {
+    margin-top: 30px;
+}
+
+.info-colecao button {
+    margin-top: 40px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.nova-colecao img, .info-colecao  {
+    width: 650px;
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    font-size: 0.8em;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+footer h3 {
+    margin: 25px 0 10px 0;
+}
+
+.footer-esquerda {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footer-esquerda div, .footer-direita {
+    padding: 45px;
+}
+
+.footer-esquerda li {
+    color: gray;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer-direita input {
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.footer-direita button {
+    padding: 3px;
+    color: #fff;
+    background-color: #000;
+}
+
+.footer-direita img {
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

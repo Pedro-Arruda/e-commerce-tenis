@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sneakers</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <h1>Sneakers</h1>   
+        </div>
+
+        <div id="oferta-limitada">
+            <a href="#">Limited Offer!</a>
+        </div>
+    </nav>
+
+    <section class="slider">
+        
+        <div class="slider-preco">
+            <h2>$119</h2>
+        </div>
+        <div class="slider-imagem">
+            <img src="img/air.png" alt="">
+        </div>
+        <div class="slider-info">
+            <h1>AIR FORCE NEW SEASON</h1>
+            <button>BUY NOW!</button>
+        </div>
+
+    </section>
+
+    <section class="area-informacoes">
+        <div class="informacoes">
+            <img src="img/shipping.png" alt="">
+            <h2>FREE SHIPPING</h2>
+            <p>Free worldwide shipping on all orders</p>
+        </div>
+
+        <div class="informacoes">
+            <img src="img/return.png" alt="">
+            <h2>30 DAYS RETURN</h2>
+            <p>No question return and easy refund in 14 days.</p>
+        </div>
+
+        <div class="informacoes">
+            <img src="img/gift.png" alt="">
+            <h2>GIFT CARD</h2>
+            <p>Buy gift cards and use coupon codes easily.</p>
+        </div>
+
+        <div class="informacoes">
+            <img src="img/contact.png" alt="">
+            <h2>CONTACT US</h2>
+            <p>Keep in touch via email and support system.</p>
+        </div>
+    </section>
+
+    <div class="menu-tenis">
+        <a onclick="modeloTenis('air', 'air2', 'Air Force', '119', 'black', 'darkblue')">AIR FORCE </a>
+        <a onclick="modeloTenis('jordan', 'jordan2', 'Air Jordan' ,'149', 'gray', 'green')">JORDAN </a>
+        <a onclick="modeloTenis('blazer', 'blazer2', 'Blazer' ,'109', 'gray', 'green')">BLAZER</a>
+        <a onclick="modeloTenis('crater', 'crater2', 'Crater' ,'129', 'black', 'lightgray')">CRATER</a>
+        <a onclick="modeloTenis('hippie', 'hippie2', 'Hippie' ,'99', 'gray', 'black')">HIPPIE</a>
+    </div>
+
+    
+
+    <section class="area-tenis">
+        
+        <div class="area-img">
+            <img src="img/air.png" alt=""  class="tenis">
+        </div>
+
+        <div class="area-info">
+            <h1 class="nome">AIR FORCE</h1>
+            <h5 class="preco">$119</h5>
+            <p>Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda dolorum doloremque sapiente aliquid aperiam.</p>
+
+            <div class="cores-tenis">
+                <button class="cor-1"></button>
+                <button class="cor-2"></button>
+            </div>
+            
+            <button class="tamanho-tenis" onclick="mudaCorBotao()">42</button>
+            <button class="tamanho-tenis">43</button>
+            <button class="tamanho-tenis">44</button>
+
+            <div class="btn-comprar">
+                <button onclick="telaPagamento()">BUY NOW!</button>
+            </div>
+        </div>
+
+        <div class="area-pagamento">
+            <button onclick="telaPagamento()" id="btn-fecha">X</button>
+            <form>
+                <h2>Personal Information</h2>
+
+                <p>Name and Surname</p>
+                <input type="text" placeholder="John Doe">
+    
+                <p>Phone Number</p>
+                <input type="text" placeholder="+1 234 5678">
+    
+                <p>Address</p>
+                <input type="text" placeholder="Elton St 21 22-145">
+
+                <h2>Card Information</h2>
+
+                <img src="img/visa.png" alt="">
+                <img src="img/master.png" alt="">
+
+                <input type="text" placeholder="Card Number">
+                <div id="form-pagamento">
+                    <input type="text" class="input-cartao" placeholder="mm">
+                    <input type="text" class="input-cartao" placeholder="yyyy">
+                    <input type="text" class="input-cartao" placeholder="cvv">
+                </div>
+            </form>
+            <button onclick="telaPagamento()" class="btn-finalizado">Checkout</button>
+            
+        </div>
+    </section>
+
+    <h2 id="titulo-galeria">Just Do It!</h2>
+
+    <section class="area-imagens">
+        <div>
+            <img src="img/galeria1.webp" alt="">
+        </div>
+        <div>
+            <img src="img/galeria2.webp" alt="">
+        </div>
+        <div>
+            <img src="img/galeria3.webp" alt="">
+        </div>
+    </section>
+
+    <section class="nova-colecao">
+        <div>
+            <img src="img/galeria4.webp" alt="">
+        </div>
+
+        <div class="info-colecao">
+            <h4>WINTER NEW ARRIVALS</h4>
+
+            <h2>New Season</h2>
+            <h2>New Collection</h2>
+
+            <button>CHOOSE YOUR STYLE</button>
+        </div>
+
+        <div>
+            <img src="img/galeria3.webp" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-esquerda">
+            <div>
+                <h2>About Us</h2>
+                <ul>
+                    <li>Company</li>
+                    <li>Contact</li>
+                    <li>Careers</li>
+                    <li>Affiliates</li>
+                    <li>Stores</li>
+                </ul>
+            </div>
+    
+            <div>
+                <h2>Useful Links</h2>
+                <ul>
+                    <li>Support</li>
+                    <li>Refund</li>
+                    <li>FAQ</li>
+                    <li>Feedback</li>
+                    <li>Stories</li>
+                </ul>
+            </div>
+    
+            <div>
+                <h2>Products</h2>
+                <ul>
+                    <li>Air Force</li>
+                    <li>Air Jordan</li>
+                    <li>Blazer</li>
+                    <li>Crater</li>
+                    <li>Hippie</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-direita">
+            <div>
+                <h2>Subscribe to our newsletter</h2>
+                <input type="text" placeholder="your@email.com">
+                <button>Join!</button>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+                <img src="img/facebook.png" alt="">
+                <img src="img/instagram.png" alt="">
+                <img src="img/whatsapp.png" alt="">
+                <img src="img/twitter.png" alt="">
+            </div>
+
+            <div>
+                <p>@Lama Dev. All rights reserved. 2022.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
